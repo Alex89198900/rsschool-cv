@@ -25,4 +25,4 @@ alert( result );
 ## Education
 ### University: Zaporozhye State Engineering Academy
 ## English
-### 
+### B
