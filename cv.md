@@ -12,12 +12,15 @@
 * ### Git
 ## Code Example
 ```
-function sum(a, b) {
-  return a + b;
-}
+function minMax (){
+  let res =[]
+  let max = Math.max(...arr);
+  let min = Math.min(...arr);
+  res.push(min)
+  res.push(max)
+  return res
 
-let result = sum(1, 2);
-alert( result );
+}
 ```
 
 ## Experience
