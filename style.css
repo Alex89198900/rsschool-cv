@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Serif+Pro:wght@200&display=swap");
+
+::before,
+::after {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+ul,
+ol,
+li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+html,
+body {
+   margin: 0 auto;
+   padding: 0;
+   background-color: teal;
+   font-family: Poppins;
+}
+
+._container {
+   max-width: 1400px;
+   align-items: center;
+   margin: 0px 50px 0px 50px;
+}
+.header {
+   width: 100%;
+}
+.header__body {
+   margin: 50px 0px 50px 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.photo__photo {
+   height: 250px;
+   border-radius: 50%;
+}
+
+.title {
+   font-size: 50px;
+}
+.main {
+   display: flex;
+   flex-direction: column;
+}
+.column__contact {
+   flex: 0 1 30%;
+
+   color: white;
+}
+
+.contact__body {
+   display: flex;
+   justify-content: space-around;
+}
+.contact__title-first {
+   font-size: 35px;
+   border-bottom: 3px solid white;
+}
+
+.contact-adress-text {
+   font-size: 20px;
+   padding: 1px;
+}
+
+.list__skills {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+}
+.scills {
+   border-bottom: 3px solid white;
+   margin-top: 50px;
+   color: white;
+   font-size: 35px;
+}
+.follow {
+   border-bottom: 3px solid white;
+}
+.item__skills {
+   flex: 1 0 40%;
+   margin: 50px 0 0 0;
+}
+.html {
+   height: 8px;
+   background: linear-gradient(to left, yellow 50%, blue 50%);
+}
+.javascript {
+   height: 8px;
+   background: linear-gradient(to left, yellow 65%, blue 35%);
+}
+.css3 {
+   height: 8px;
+   background: linear-gradient(to left, yellow 60%, blue 40%);
+}
+.git {
+   height: 8px;
+   background: linear-gradient(to left, yellow 55%, blue 45%);
+}
+
+.column__expirience {
+   flex: 1 0 75%;
+}
+.expirience__title {
+   margin: 220px 0px 0px 0px;
+}
+
+.expirience__text {
+   font-size: 20px;
+   color: white;
+}
+
+
+.rsschool {
+   height: 50px;
+}
+ul {
+   display: flex;
+   gap: 40px;
+   justify-content: center;
+}
+
+.fooer-nav {
+   margin-top: 50px;
+   background: yellowgreen;
+}
+.footer__title {
+   display: flex;
+   justify-content: center;
+}
+
+.code__wrapper {
+   display: flex;
+   justify-content: center;
+   font-size: 18px;
+   background-color: gray;
+}
