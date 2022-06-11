@@ -1,13 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-   <title>Document</title>
-</head>
-<body>
-   CV#2. HTML, CSS & Git Basics!!!!
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__containe _container">
+        <div class="header__body">
+          <div class="photo">
+            <img src="images/photo.jpg" alt="my-photo" class="photo__photo" />
+          </div>
+          <div class="name">
+            <h1 class="title">Cherniy Alexander</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column__contact">
+        <div class="column__contact _container">
+          <h2 class="contact__title-first">Contact</h2>
+          <div class="column__contact-contact">
+            <div class="contact__body">
+              <div class="contact-adress">
+                <div class="contact-adress-image">
+                  <img src="images/" alt="" />
+                </div>
+                <div class="contact-adress-text">
+                  <h3>Adress:</h3>
+                  38/99, W-International
+                  <br />
+                  Energodar,Ukraine
+                </div>
+              </div>
+              <div class="contact-phoen">
+                <div class="contact-adress">
+                  <div class="contact-adress-image">
+                    <img src="images/" alt="" />
+                  </div>
+                  <div class="contact-adress-text">
+                    <h3>Phone number:</h3>
+                    +380957742512
+                  </div>
+                </div>
+              </div>
+              <div class="contact-mail">
+                <div class="contact-adress">
+                  <div class="contact-adress-image">
+                    <img src="images/" alt="" />
+                  </div>
+                  <div class="contact-adress-text">
+                    <h3>Mail:</h3>
+                    <a href="https://mail.ukr.net/desktop#msglist/f0/p0">
+                      alexchorn1989@ukr.net
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column__contact-skills">
+            <h2 class="scills">Scills</h2>
+            <div class="list__skills">
+              <div class="item__skills">
+                Html 5
+                <br />
+                50%
+                <div class="html"></div>
+              </div>
+              <div class="item__skills">
+                JavaScript
+                <br />
+                35%
+                <div class="javascript"></div>
+              </div>
+              <div class="item__skills">
+                CSS 3
+                <br />
+                40%
+                <div class="css3"></div>
+              </div>
+              <div class="item__skills">
+                Git
+                <br />
+                45%
+                <div class="git"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="column__expirience">
+        <div class="column__expirience _container">
+          <div class="expirience__title">
+            <div class="expirience__title-photo"></div>
+            <h2 class="scills">About me</h2>
+          </div>
+          <div class="expirience__text">
+            I have good interpersonal skills, am an excellent team worker and
+            very willing to learn and develop new skills. I am reliable and
+            dependable and often seek new responsibilities within a wide range
+            of employment areas.
+          </div>
+          <div class="expirience__title">
+            <div class="expirience__title-photo"></div>
+            <h2 class="scills">Education</h2>
+          </div>
+          <div class="expirience__text">
+            University:
+            <br />
+            <a href="https://old-zdia.znu.edu.ua">
+              Zaporozhye State Engineering Academy
+            </a>
+          </div>
+          <div class="expirience__title">
+            <div class="expirience__title-photo"></div>
+            <h2 class="scills">Code example</h2>
+          </div>
+          <div class="code__wrapper">
+            <div class="expirience__text-code">
+              <pre>
+        function uni(arr) {
+            let res = [];
+            for (let str of arr) {
+              if (!res.includes(str)) {
+                res.push(str);
+              }
+            }
+             return res;
+          }
+          
+           </pre
+              >
+            </div>
+          </div>
+          <div class="expirience__title">
+            <div class="expirience__title-photo"></div>
+            <h2 class="scills">English</h2>
+          </div>
+          <div class="expirience__text">A2 (Pre-Intermediate)</div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="fooer-nav">
+        <nav>
+          <ul>
+            <li>
+              <a href="https://app.rs.school">
+                <img
+                  src="images/rs_school_js.svg"
+                  alt="rs_school_js"
+                  class="rsschool"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Alex89198900">
+                <img
+                  src="images/github_PNG53.png"
+                  alt="github"
+                  class="rsschool"
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__title">Cherniy Alexander 2022</div>
+      </div>
+    </footer>
+  </body>
 </html>
