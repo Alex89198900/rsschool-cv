@@ -30,4 +30,4 @@ function minMax (){
 ## Education
 ### University: Zaporozhye State Engineering Academy
 ## English
-### B
+### A2
