@@ -193,6 +193,20 @@ border-radius: 16px;
    position: relative;
   
 }
+
+.input__text{
+   position: absolute;
+   top: 78px;
+   left: 62px;
+   font-family: 'Aleo';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 29px;
+   
+   color: #F2785C;
+   
+   }
 .explore__button {
 position: absolute;
 width: 228px;
